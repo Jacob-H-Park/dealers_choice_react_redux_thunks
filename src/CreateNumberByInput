@@ -1,0 +1,34 @@
+// import React, { Component } from "react";
+// import { connect } from "react-redux";
+// import { createNumberByinput } from "../store";
+
+// class CreateNumberByInput extends Component {
+//   constructor() {
+//     super();
+//     this.state = {
+//       inputNumber: "",
+//     };
+//   }
+//   render() {
+//     const { inputNumber } = this.state;
+//     return (
+//       <form>
+//         <input
+//           value={inputNumber}
+//           onChange={(ev) => this.setState({ inputNumber: ev.target.value })}
+//         />
+//         <button onClick={() => this.props.create(this.state.inputNumber)}>
+//           Create
+//         </button>
+//       </form>
+//     );
+//   }
+// }
+
+// const mapDispatchToProps = (dispatch) => {
+//   return {
+//     create: (inputNumber) => dispatch(createNumberByinput(inputNumber)),
+//   };
+// };
+
+// export default connect(null, mapDispatchToProps)(CreateNumberByInput);
